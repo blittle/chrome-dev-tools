@@ -2,11 +2,11 @@
 
 This is the summary of my book.
 * [Basics](basics/README.md)
+	* [Internal Chrome Pages](basics/chrome-pages.md)
 	* [Navigation](basics/navigation.md)
 	* [Settings](basics/settings.md)
-	* [Profiles](basics/profiles.md)
 * [Elements](elements/README.md)
-	* [Incrementing Values](elements/incrementing.md)
+	* [Styles](elements/styles.md)
 	* [Source Maps](elements/less-sourcemaps.md)
 	* [DOM Breakpoints](elements/dom-breakpoints.md)
 	* [Toggle State](elements/toggle-state.md)
