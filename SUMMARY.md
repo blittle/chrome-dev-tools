@@ -18,6 +18,7 @@ This is the summary of my book.
 * [Sources](sources/README.md)
 	* [Shortcuts](https://plus.google.com/u/0/+AddyOsmani/posts/e4W2kdrFJY9)
 	* [Workspaces](scripts/workspaces.md)
+	* [Local Modifications](scripts/local-modifications.md)
 	* [Debugging](scripts/debugging.md) #restart frame
 	* [Skipping Frameworks](scripts/frameworks.md) # enable frameworks debugging support
 	* [Asyncronous Stacktraces](scripts/async.md)

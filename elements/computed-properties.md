@@ -6,7 +6,7 @@ Sometimes CSS properties are dynamically computed based upon the context of the 
 ![alt text](/elements/computed-properties.png "Less")
 
 <br/>
-Inspect the element below and analyze the defined versus computed properties:
+####Inspect the element below and analyze the defined versus computed properties:
 
 <div id="computed-prop-container">
 	<p class="content">

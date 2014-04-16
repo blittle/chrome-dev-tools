@@ -6,7 +6,7 @@ You can view all current DOM breakpoints on the `DOM Breakpoint` tab.
 
 ![alt text](/elements/breakpoint.png "Less")
 
-Find which script is modifying the following element by using DOM Breakpoints:
+####Find which script is modifying the following element by using DOM Breakpoints:
 
 <div id="live-modify">
 	<span>0</span>
@@ -16,7 +16,7 @@ Find which script is modifying the following element by using DOM Breakpoints:
 	var i = setInterval(function() {
 		var el = document.getElementById("live-modify");
 		if(!el) return clearInterval(i);
-		
+
 		var span = el.children[0];
 
 		var num = (span.innerHTML * 1) + 1;
