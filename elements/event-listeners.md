@@ -5,7 +5,7 @@ Inspect event listeners associated with individual DOM nodes. Use the filter ico
 
 ![alt text](/elements/event-listeners.png "Less")
 
-Find the onclick handler definition for the button below:
+####Find the onclick handler definition for the button below:
 
 <button id="click-example">Alert Me</button>
 
