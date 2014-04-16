@@ -1,0 +1,31 @@
+@light4: #e9eae9;
+@light6: #e2e3e1;
+@light8: #dbdcda;
+@light9: #cbccca;
+
+@button-active-interaction: #1aa1da;
+
+.button-style {
+	background: @light4;
+	border: .063em solid @light8;
+	color: @button-active-interaction;
+
+	&:focus, &:hover {
+		background-color: @light6;
+		border-color: @light9;
+	}
+
+	&:focus {
+		text-decoration: underline;
+	}
+
+	&:active {
+		background-color: @light6;
+		border-color: @light9;
+		text-decoration: none;
+	}
+
+	&[disabled], &.disabled {
+		opacity: .4;
+	}
+}

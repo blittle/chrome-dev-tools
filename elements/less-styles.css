@@ -1,0 +1,23 @@
+.button-style {
+  background: #e9eae9;
+  border: 0.063em solid #dbdcda;
+  color: #1aa1da;
+}
+.button-style:focus,
+.button-style:hover {
+  background-color: #e2e3e1;
+  border-color: #cbccca;
+}
+.button-style:focus {
+  text-decoration: underline;
+}
+.button-style:active {
+  background-color: #e2e3e1;
+  border-color: #cbccca;
+  text-decoration: none;
+}
+.button-style[disabled],
+.button-style.disabled {
+  opacity: .4;
+}
+/*# sourceMappingURL=file.map */
