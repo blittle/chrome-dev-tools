@@ -1,0 +1,15 @@
+.state-change {
+	background-color: white;
+}
+
+.state-change:hover {
+	background-color: red;
+}
+
+.state-change:active {
+	background-color: green;
+}
+
+.state-change:focus {
+	background-color: blue;
+}
