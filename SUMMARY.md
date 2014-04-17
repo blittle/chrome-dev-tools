@@ -14,7 +14,7 @@ This is the summary of my book.
 * [Network](network/README.md)
 	* [Websockets](network/websockets.md)
 	* [XHR Breakpoints](network/xhr-breakpoints.md)
-	* [Custom columns](network/custom-columns.md)
+	* [Copy Request Data](network/request-data.md)
 * [Sources](sources/README.md)
 	* [Shortcuts](https://plus.google.com/u/0/+AddyOsmani/posts/e4W2kdrFJY9)
 	* [Workspaces](scripts/workspaces.md)
