@@ -1,7 +1,7 @@
 Styles
 ======
 
-<img src='/elements/styles.png' style="float: right;">
+<img src='../elements/styles.png' style="float: right;">
 
   * The toggle state button allows you to toggle CSS pseudo anchor state.
   * Clicking the source file name or `ctr` + `click` the property will load the associated source file.

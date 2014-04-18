@@ -8,7 +8,7 @@ The network tab is very useful for inspecting network requests. Note: the develo
   * Mouse over individual requests on the timeline column to view timing information.
   * The initiator column has a link to the file and line number from where the request was initiated.
 
-![alt text](/network/network.png "Less")
+<img src="../network/network.png"/>
 
 
 ####Use the network tab in the developer tools to find in the source where an AJAX request is made to `some-response.json`
