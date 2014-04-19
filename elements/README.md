@@ -9,5 +9,6 @@ Elements
   * Drag and drop DOM nodes.
   * It can be very useful to copy the CSS or XPath to a selected element.
   * Modification can be undone by `ctr` + `z`
+  * `ctl` + `alt` + `click` on a DOM node to auto expand all children of an element.
 
 
