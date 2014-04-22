@@ -24,7 +24,7 @@ This is the summary of my book.
 	* [Restart Frame](sources/restart-frame.md)
 	* [Long Resume](sources/long-resume.md)
 	* [Asyncronous Stacktraces](sources/async.md)
-	* [Skipping Frameworks](scripts/frameworks.md) # enable frameworks debugging support
+	* [Skipping Frameworks](sources/skip-frameworks.md)
 	* [Snippets](scripts/snippets.md)
 	* [Breakpoint Logging](scripts/breakpoint-log.md)
 	* [Exceptions](scripts/exceptions.md)
