@@ -28,6 +28,7 @@ This is the summary of my book.
 	* [Conditional Breakpoints](sources/conditional-breakpoints.md)
 	* [Uncaught Exceptions](sources/uncaught-exceptions.md)
 	* [WebWorkers](sources/web-workers.md)
+	* [SourceMaps](sources/maps.md)
 	* [Snippets](sources/snippets.md)
 * [Timeline](timeline/README.md)
 * [Profiles](profiles/README.md)
