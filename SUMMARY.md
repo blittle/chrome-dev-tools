@@ -41,6 +41,7 @@ This is the summary of my book.
 	* [Query DOM](console/query-dom.md)
 	* [Monitor Events](console/monitor-events.md)
 	* [Commands](console/commands.md)
+	* [Store as Global](console/store-as-global.md)
 * [Mobile](mobile/README.md)
 	* [USB Debugging](mobile/usb-debugging.md)
 * [Extensions](extensions/README.md)

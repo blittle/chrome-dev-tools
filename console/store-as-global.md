@@ -1,0 +1,2 @@
+Store as Global
+===============
