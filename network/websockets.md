@@ -7,7 +7,7 @@ Chrome developer tools contain a websockets view for analyzing websocket message
   * The frames do not automatically update. Click on the request within the name column to refresh the frames.
   * Right click to copy the data out of the frames.
 
-<img src="../network/web-socket.png"/>
+![Audits](../network/web-socket.png)
 
 ####Exercise‎
 Inspect the frames sent within the following websocket connection:

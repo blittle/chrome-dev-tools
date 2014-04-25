@@ -5,5 +5,5 @@ The dev tools allow you to pick a scoped variable and automatically store a refe
 
 Right click a `Scope Variable` and select `Store as Global Variable`. The console will immediately output the temporary name of the now globally available variable.
 
-<img src="../sources/store-as-global.gif"/>
+![Audits](../sources/store-as-global.gif)
 Note: A beta version of Chrome may be necessary for this feature.

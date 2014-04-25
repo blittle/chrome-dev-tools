@@ -5,6 +5,6 @@ Newer versions of chrome officially support custom skins for the developer tools
 
 [http://devthemez.com/themes/chrome-developer-tools](http://devthemez.com/themes/chrome-developer-tools) lists a variety of skins available.
 
-<img src="../themes/theme.png"/>
+![Audits](../themes/theme.png)
 
 My particular favorite [Zero Dark Matrix](http://devthemez.com/themes/zero-dark-matrix)

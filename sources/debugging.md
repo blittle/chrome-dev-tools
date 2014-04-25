@@ -1,7 +1,7 @@
 Debugging
 =========
 
-<img src="../sources/debugging.png"/>
+![Audits](../sources/debugging.png)
 
 1. Resume script execution - `F8`
 2. Step over to the nex function call - `F10`

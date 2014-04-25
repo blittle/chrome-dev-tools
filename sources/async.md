@@ -2,7 +2,7 @@ Asynchronous Stack Traces
 =========================
 Asynchronous stack traces allow you to inspect function calls beyond the current event loop. This is particularly useful because you can examine the scope of previously executed frames that are no longer on the event loop. This feature is currently an experiment and needs to be [enabled](../basics/settings.html).
 
-<img src="../sources/async.gif"/>
+![Audits](../sources/async.gif)
 
 In the example above, notice the difference when asyncronous stack traces are enabled and disabled. Also note that the feature needs to be enabled **before** the breakpoint is reached.
 

@@ -8,7 +8,7 @@ monitorEvents(document, ["scroll"]);
 monitorEvents($('#action-button'), ["mousedown", "mouseup"]);
 ```
 
-<img src="../console/monitor-events.png"/>
+![Audits](../console/monitor-events.png)
 
 To stop monitoring events, simply call `unmonitorEvents()` passing the object to stop monitoring on.
 
