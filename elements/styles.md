@@ -7,10 +7,9 @@ Styles
   * Clicking the source file name or `ctr` + `click` the property will load the associated source file.
   * Properties that are ~~crossed out~~ are either overriden or unknown to Chrome.
   
-<br/>
-####Inspect the following element and toggle its state.
+####Exercise‎
+Inspect the following element and toggle its state.
 <textarea class="state-change">State changes</textarea>  
-<br/>
 <br/>
 
 Increment property values with the following shortcuts:

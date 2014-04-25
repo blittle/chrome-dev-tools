@@ -10,6 +10,6 @@ In addition to providing a convenient workspace for testing code, the console al
 4. Enter multi-line code with `shift` + `enter`
 5. The shortcut `ctrl` + `L` clears the console
 
-####Exercise
+####Exercise‎
 Load the console and notice at the top frame the global variable `iFrameApp` is not defined. Switch the frame to iframe.html and it is defined.
 <iframe src="../console/iframe.html"></iframe>

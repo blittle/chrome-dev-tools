@@ -8,7 +8,7 @@ The Chrome dev tools support source maps, which allow you to debug transpiled Ja
 <img src="../sources/coffee-map.png"/>
 
 
-####Exersize
+####Exercise‎
 Enable sourcemaps in the developer tool settings. Close and reload the developer tools. Open up `ctrl` + `O` `example.ts` and `example.coffee`. Explore these files by reloading the page with break points placed in the files. 
 <script src="example.js"></script>
 <script src="ts-example.js"></script>

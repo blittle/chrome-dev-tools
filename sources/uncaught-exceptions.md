@@ -6,7 +6,7 @@ Sometimes you may have a console error but have no idea where or how the excepti
 <img src="../sources/uncaught-exception.gif"/>
 
 
-####Exersize
+####Exercise‎
 Reload the page. A error should be in the console. Use the uncaught exceptions to break at the error location and determine how to fix the problem.
 
 <script></script>

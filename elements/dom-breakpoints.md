@@ -6,7 +6,8 @@ You can view all current DOM breakpoints on the `DOM Breakpoint` tab.
 
 <img src="../elements/breakpoint.png"/>
 
-####Find which script is modifying the following element by using DOM Breakpoints:
+####Exercise‎
+Find which script is modifying the following element by using DOM Breakpoints:
 
 <div id="live-modify">
 	<span>0</span>

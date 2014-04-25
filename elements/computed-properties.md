@@ -5,8 +5,8 @@ Sometimes CSS properties are dynamically computed based upon the context of the 
 
 <img src="../elements/computed-properties.png"/>
 
-<br/>
-####Inspect the element below and analyze the defined versus computed properties:
+####Exercise‎
+Inspect the element below and analyze the defined versus computed properties:
 
 <div id="computed-prop-container">
 	<p class="content">

@@ -4,7 +4,7 @@ Web Workers
 
 <img src="../sources/workers.png"/>
 
-####Exersize
+####Exercise‎
 A worker has been started in the background that accepts two numbers, adds them, and returns the result. Pass data to the worker thread and use the chrome developer tools to debug the output.
 
 <div>

@@ -9,9 +9,8 @@ Chrome developer tools contain a websockets view for analyzing websocket message
 
 <img src="../network/web-socket.png"/>
 
-
-
-####Inspect the frames sent within the following websocket connection:
+####Exercise‎
+Inspect the frames sent within the following websocket connection:
 
 Message: <input id="socket-message"/><button id="send-socket">Send Message</button>
 <div id="output"></div>

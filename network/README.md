@@ -10,10 +10,10 @@ The network tab is very useful for inspecting network requests. Note: the develo
 
 <img src="../network/network.png"/>
 
+####Exercise‎
+Use the network tab in the developer tools to find in the source where an AJAX request is made to `some-response.json`
 
-####Use the network tab in the developer tools to find in the source where an AJAX request is made to `some-response.json`
-
-####Server Response:
+#####Server Response:
 <div id='server-response'></div>
 
 <script>
