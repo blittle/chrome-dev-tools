@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en-US" manifest="../manifest.appcache">
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
         
         <meta charset="UTF-8">
-        <title>Source Maps | </title>
+        <title> | </title>
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="robots" content="index, follow">
@@ -14,13 +14,9 @@
         <meta name="generator" content="www.gitbook.io">
 
         
-        <link rel="next" href="../elements/dom-breakpoints.html" />
-        
-        
-        <link rel="prev" href="../elements/styles.html" />
         
 
-        <meta property="og:title" content="Source Maps | ">
+        <meta property="og:title" content=" | ">
         <meta property="og:site_name" content="">
         <meta property="og:type" content="book">
         <meta property="og:locale" content="en_US">
@@ -37,7 +33,13 @@
     </head>
     <body>
         
-    <div class="book" data-github="blittle/chrome-dev-tools" data-level="2.2" data-basepath=".." data-revision="1397792509317">
+
+        <link rel="stylesheet" href="../gitbook/style.css">
+        
+
+
+        
+    <div class="book" data-github="blittle/chrome-dev-tools" data-level="" data-basepath=".." data-revision="1398783268125">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -45,6 +47,33 @@
     
     <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+	<div class="dropdown-caret">
+  <span class="caret-outer"></span>
+  <span class="caret-inner"></span>
+</div>
+
+	<div class="btn-group btn-block">
+		<button id="reduce-font-size" class="btn btn-default">A</button>
+		<button id="enlarge-font-size" class="btn btn-default">A</button>
+	</div>
+
+	<ul class="list-group font-family-list">
+		<li class="list-group-item" data-font="0">Serif</li>
+		<li class="list-group-item" data-font="1">Sans</li>
+	</ul>
+
+	<div class="btn-group btn-group-xs btn-block color-theme-list">
+	  <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+	</div>
+</div>
+
+    </span>
 
     <!-- Actions Right -->
     <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
@@ -57,7 +86,10 @@
     
 
     <!-- Title -->
-    <h1><a href="../" ></a></h1>
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
 </div>
 
     <div class="book-summary">
@@ -217,90 +249,122 @@
                 
                 <ul class="articles">
                     
-                        <li  data-level="4.1" data-path="https://plus.google.com/u/0/+AddyOsmani/posts/e4W2kdrFJY9">
+                        <li  data-level="4.1" data-path="sources/pretty-print.html">
                             
-                            <a href="../https://plus.google.com/u/0/+AddyOsmani/posts/e4W2kdrFJY9">
-                                <i class="fa fa-check"></i> <b>4.1.</b> Shortcuts
+                            <a href="../sources/pretty-print.html">
+                                <i class="fa fa-check"></i> <b>4.1.</b> Pretty Print
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.2" data-path="scripts/workspaces.html">
+                        <li  data-level="4.2" data-path="sources/editing-content.html">
                             
-                            <a href="../scripts/workspaces.html">
-                                <i class="fa fa-check"></i> <b>4.2.</b> Workspaces
+                            <a href="../sources/editing-content.html">
+                                <i class="fa fa-check"></i> <b>4.2.</b> Editing Content
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.3" data-path="scripts/local-modifications.html">
+                        <li  data-level="4.3" data-path="sources/local-modifications.html">
                             
-                            <a href="../scripts/local-modifications.html">
+                            <a href="../sources/local-modifications.html">
                                 <i class="fa fa-check"></i> <b>4.3.</b> Local Modifications
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.4" data-path="scripts/debugging.html">
+                        <li  data-level="4.4" data-path="sources/workspaces.html">
                             
-                            <a href="../scripts/debugging.html">
-                                <i class="fa fa-check"></i> <b>4.4.</b> Debugging
+                            <a href="../sources/workspaces.html">
+                                <i class="fa fa-check"></i> <b>4.4.</b> Workspaces
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.5" data-path="scripts/frameworks.html">
+                        <li  data-level="4.5" data-path="sources/debugging.html">
                             
-                            <a href="../scripts/frameworks.html">
-                                <i class="fa fa-check"></i> <b>4.5.</b> Skipping Frameworks
+                            <a href="../sources/debugging.html">
+                                <i class="fa fa-check"></i> <b>4.5.</b> Debugging
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.6" data-path="scripts/async.html">
+                        <li  data-level="4.6" data-path="sources/restart-frame.html">
                             
-                            <a href="../scripts/async.html">
-                                <i class="fa fa-check"></i> <b>4.6.</b> Asyncronous Stacktraces
+                            <a href="../sources/restart-frame.html">
+                                <i class="fa fa-check"></i> <b>4.6.</b> Restart Frame
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.7" data-path="scripts/pretty.html">
+                        <li  data-level="4.7" data-path="sources/long-resume.html">
                             
-                            <a href="../scripts/pretty.html">
-                                <i class="fa fa-check"></i> <b>4.7.</b> Pretty Print
+                            <a href="../sources/long-resume.html">
+                                <i class="fa fa-check"></i> <b>4.7.</b> Long Resume
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.8" data-path="scripts/snippets.html">
+                        <li  data-level="4.8" data-path="sources/async.html">
                             
-                            <a href="../scripts/snippets.html">
-                                <i class="fa fa-check"></i> <b>4.8.</b> Snippets
+                            <a href="../sources/async.html">
+                                <i class="fa fa-check"></i> <b>4.8.</b> Asyncronous Stacktraces
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.9" data-path="scripts/breakpoint-log.html">
+                        <li  data-level="4.9" data-path="sources/skip-frameworks.html">
                             
-                            <a href="../scripts/breakpoint-log.html">
-                                <i class="fa fa-check"></i> <b>4.9.</b> Breakpoint Logging
+                            <a href="../sources/skip-frameworks.html">
+                                <i class="fa fa-check"></i> <b>4.9.</b> Skipping Frameworks
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.10" data-path="scripts/exceptions.html">
+                        <li  data-level="4.10" data-path="sources/conditional-breakpoints.html">
                             
-                            <a href="../scripts/exceptions.html">
-                                <i class="fa fa-check"></i> <b>4.10.</b> Exceptions
+                            <a href="../sources/conditional-breakpoints.html">
+                                <i class="fa fa-check"></i> <b>4.10.</b> Conditional Breakpoints
                             </a>
                             
                         </li>
                     
-                        <li  data-level="4.11" data-path="scripts/workers.html">
+                        <li  data-level="4.11" data-path="sources/uncaught-exceptions.html">
                             
-                            <a href="../scripts/workers.html">
-                                <i class="fa fa-check"></i> <b>4.11.</b> WebWorkers
+                            <a href="../sources/uncaught-exceptions.html">
+                                <i class="fa fa-check"></i> <b>4.11.</b> Uncaught Exceptions
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.12" data-path="sources/store-as-global.html">
+                            
+                            <a href="../sources/store-as-global.html">
+                                <i class="fa fa-check"></i> <b>4.12.</b> Store as Global
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.13" data-path="sources/web-workers.html">
+                            
+                            <a href="../sources/web-workers.html">
+                                <i class="fa fa-check"></i> <b>4.13.</b> WebWorkers
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.14" data-path="sources/maps.html">
+                            
+                            <a href="../sources/maps.html">
+                                <i class="fa fa-check"></i> <b>4.14.</b> SourceMaps
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.15" data-path="sources/snippets.html">
+                            
+                            <a href="../sources/snippets.html">
+                                <i class="fa fa-check"></i> <b>4.15.</b> Snippets
                             </a>
                             
                         </li>
@@ -325,50 +389,46 @@
                 </a>
                 
                 
-                <ul class="articles">
-                    
-                        <li  data-level="6.1" data-path="https://developers.google.com/chrome-developer-tools/docs/javascript-memory-profiling">
-                            
-                            <a href="../https://developers.google.com/chrome-developer-tools/docs/javascript-memory-profiling">
-                                <i class="fa fa-check"></i> <b>6.1.</b> Memory
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="6.2" data-path="http://addyosmani.com/blog/devtools-flame-charts/">
-                            
-                            <a href="../http://addyosmani.com/blog/devtools-flame-charts/">
-                                <i class="fa fa-check"></i> <b>6.2.</b> CPU
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
             </li>
         
-            <li  data-level="7" data-path="resources/README.html">
-                
-                <a href="../resources/README.html">
-                    <i class="fa fa-check"></i> <b>7.</b> Resources
-                </a>
-                
-                
-            </li>
-        
-            <li  data-level="8" data-path="audits/README.html">
+            <li  data-level="7" data-path="audits/README.html">
                 
                 <a href="../audits/README.html">
-                    <i class="fa fa-check"></i> <b>8.</b> Audits
+                    <i class="fa fa-check"></i> <b>7.</b> Audits
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="8" data-path="console/README.html">
+                
+                <a href="../console/README.html">
+                    <i class="fa fa-check"></i> <b>8.</b> Console
                 </a>
                 
                 
                 <ul class="articles">
                     
-                        <li  data-level="8.1" data-path="audits/unused-css.html">
+                        <li  data-level="8.1" data-path="console/query-dom.html">
                             
-                            <a href="../audits/unused-css.html">
-                                <i class="fa fa-check"></i> <b>8.1.</b> Unused CSS
+                            <a href="../console/query-dom.html">
+                                <i class="fa fa-check"></i> <b>8.1.</b> Query DOM
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="8.2" data-path="console/monitor-events.html">
+                            
+                            <a href="../console/monitor-events.html">
+                                <i class="fa fa-check"></i> <b>8.2.</b> Monitor Events
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="8.3" data-path="console/commands.html">
+                            
+                            <a href="../console/commands.html">
+                                <i class="fa fa-check"></i> <b>8.3.</b> Commands
                             </a>
                             
                         </li>
@@ -386,18 +446,10 @@
                 
                 <ul class="articles">
                     
-                        <li  data-level="9.1" data-path="mobile/overrides.html">
-                            
-                            <a href="../mobile/overrides.html">
-                                <i class="fa fa-check"></i> <b>9.1.</b> Overrides
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="9.2" data-path="mobile/usb-debugging.html">
+                        <li  data-level="9.1" data-path="mobile/usb-debugging.html">
                             
                             <a href="../mobile/usb-debugging.html">
-                                <i class="fa fa-check"></i> <b>9.2.</b> USB Debugging
+                                <i class="fa fa-check"></i> <b>9.1.</b> USB Debugging
                             </a>
                             
                         </li>
@@ -406,140 +458,19 @@
                 
             </li>
         
-            <li  data-level="10" data-path="console/README.html">
-                
-                <a href="../console/README.html">
-                    <i class="fa fa-check"></i> <b>10.</b> Console
-                </a>
-                
-                
-                <ul class="articles">
-                    
-                        <li  data-level="10.1" data-path="console/overrides.html">
-                            
-                            <a href="../console/overrides.html">
-                                <i class="fa fa-check"></i> <b>10.1.</b> Overrides
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.2" data-path="console/multi-line.html">
-                            
-                            <a href="../console/multi-line.html">
-                                <i class="fa fa-check"></i> <b>10.2.</b> Multi-line commands
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.3" data-path="console/commands.html">
-                            
-                            <a href="../console/commands.html">
-                                <i class="fa fa-check"></i> <b>10.3.</b> Commands
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.4" data-path="console/shortcuts.html">
-                            
-                            <a href="../console/shortcuts.html">
-                                <i class="fa fa-check"></i> <b>10.4.</b> Shortcuts
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.5" data-path="console/accessing-elements.html">
-                            
-                            <a href="../console/accessing-elements.html">
-                                <i class="fa fa-check"></i> <b>10.5.</b> Accessing Elements
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.6" data-path="console/dom-xpath.html">
-                            
-                            <a href="../console/dom-xpath.html">
-                                <i class="fa fa-check"></i> <b>10.6.</b> Query DOM and XPATH
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.7" data-path="console/frame.html">
-                            
-                            <a href="../console/frame.html">
-                                <i class="fa fa-check"></i> <b>10.7.</b> Frame Selection
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="10.8" data-path="console/benchmarks.html">
-                            
-                            <a href="../console/benchmarks.html">
-                                <i class="fa fa-check"></i> <b>10.8.</b> Benchmarks
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="11" data-path="extensions/README.html">
+            <li  data-level="10" data-path="extensions/README.html">
                 
                 <a href="../extensions/README.html">
-                    <i class="fa fa-check"></i> <b>11.</b> Extensions
+                    <i class="fa fa-check"></i> <b>10.</b> Extensions
                 </a>
                 
                 
-                <ul class="articles">
-                    
-                        <li  data-level="11.1" data-path="extensions/livereload.html">
-                            
-                            <a href="../extensions/livereload.html">
-                                <i class="fa fa-check"></i> <b>11.1.</b> Live Reload
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="11.2" data-path="extensions/grunt.html">
-                            
-                            <a href="../extensions/grunt.html">
-                                <i class="fa fa-check"></i> <b>11.2.</b> GruntJS
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="11.3" data-path="extensions/terminal.html">
-                            
-                            <a href="../extensions/terminal.html">
-                                <i class="fa fa-check"></i> <b>11.3.</b> HTML5 Terminal
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="11.4" data-path="https://github.com/shakyShane/browser-sync">
-                            
-                            <a href="../https://github.com/shakyShane/browser-sync">
-                                <i class="fa fa-check"></i> <b>11.4.</b> BrowserSync
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="11.5" data-path="extensions/ides.html">
-                            
-                            <a href="../extensions/ides.html">
-                                <i class="fa fa-check"></i> <b>11.5.</b> IDEs
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
             </li>
         
-            <li  data-level="12" data-path="themes/README.html">
+            <li  data-level="11" data-path="themes/README.html">
                 
                 <a href="../themes/README.html">
-                    <i class="fa fa-check"></i> <b>12.</b> Themes
+                    <i class="fa fa-check"></i> <b>11.</b> Custom Skins
                 </a>
                 
                 
@@ -553,115 +484,9 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 44.23076923076923%;min-width: 42.30769230769231%;"></div>
+        <div class="inner" style="width: %;min-width: %;"></div>
     </div>
     <div class="chapters">
-    
-        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
-    
-        <a href="../basics/README.html" title="Basics" class="chapter done new-chapter" data-progress="1" style="left: 1.9230769230769231%;"></a>
-    
-        <a href="../basics/chrome-pages.html" title="Internal Chrome Pages" class="chapter done " data-progress="1.1" style="left: 3.8461538461538463%;"></a>
-    
-        <a href="../basics/navigation.html" title="Navigation" class="chapter done " data-progress="1.2" style="left: 5.769230769230769%;"></a>
-    
-        <a href="../basics/settings.html" title="Settings" class="chapter done " data-progress="1.3" style="left: 7.6923076923076925%;"></a>
-    
-        <a href="../console/README.html" title="Console" class="chapter done " data-progress="10" style="left: 9.615384615384615%;"></a>
-    
-        <a href="../console/overrides.html" title="Overrides" class="chapter done " data-progress="10.1" style="left: 11.538461538461538%;"></a>
-    
-        <a href="../console/multi-line.html" title="Multi-line commands" class="chapter done " data-progress="10.2" style="left: 13.461538461538462%;"></a>
-    
-        <a href="../console/commands.html" title="Commands" class="chapter done " data-progress="10.3" style="left: 15.384615384615385%;"></a>
-    
-        <a href="../console/shortcuts.html" title="Shortcuts" class="chapter done " data-progress="10.4" style="left: 17.307692307692307%;"></a>
-    
-        <a href="../console/accessing-elements.html" title="Accessing Elements" class="chapter done " data-progress="10.5" style="left: 19.23076923076923%;"></a>
-    
-        <a href="../console/dom-xpath.html" title="Query DOM and XPATH" class="chapter done " data-progress="10.6" style="left: 21.153846153846153%;"></a>
-    
-        <a href="../console/frame.html" title="Frame Selection" class="chapter done " data-progress="10.7" style="left: 23.076923076923077%;"></a>
-    
-        <a href="../console/benchmarks.html" title="Benchmarks" class="chapter done " data-progress="10.8" style="left: 25%;"></a>
-    
-        <a href="../extensions/README.html" title="Extensions" class="chapter done " data-progress="11" style="left: 26.923076923076923%;"></a>
-    
-        <a href="../extensions/livereload.html" title="Live Reload" class="chapter done " data-progress="11.1" style="left: 28.846153846153847%;"></a>
-    
-        <a href="../extensions/grunt.html" title="GruntJS" class="chapter done " data-progress="11.2" style="left: 30.76923076923077%;"></a>
-    
-        <a href="../extensions/terminal.html" title="HTML5 Terminal" class="chapter done " data-progress="11.3" style="left: 32.69230769230769%;"></a>
-    
-        <a href="../https://github.com/shakyShane/browser-sync" title="BrowserSync" class="chapter done " data-progress="11.4" style="left: 34.61538461538461%;"></a>
-    
-        <a href="../extensions/ides.html" title="IDEs" class="chapter done " data-progress="11.5" style="left: 36.53846153846154%;"></a>
-    
-        <a href="../themes/README.html" title="Themes" class="chapter done " data-progress="12" style="left: 38.46153846153846%;"></a>
-    
-        <a href="../elements/README.html" title="Elements" class="chapter done new-chapter" data-progress="2" style="left: 40.38461538461539%;"></a>
-    
-        <a href="../elements/styles.html" title="Styles" class="chapter done " data-progress="2.1" style="left: 42.30769230769231%;"></a>
-    
-        <a href="../elements/less-sourcemaps.html" title="Source Maps" class="chapter done " data-progress="2.2" style="left: 44.23076923076923%;"></a>
-    
-        <a href="../elements/dom-breakpoints.html" title="DOM Breakpoints" class="chapter  " data-progress="2.3" style="left: 46.15384615384615%;"></a>
-    
-        <a href="../elements/event-listeners.html" title="Event Listeners" class="chapter  " data-progress="2.4" style="left: 48.07692307692308%;"></a>
-    
-        <a href="../elements/computed-properties.html" title="Computed Properties" class="chapter  " data-progress="2.5" style="left: 50%;"></a>
-    
-        <a href="../network/README.html" title="Network" class="chapter  new-chapter" data-progress="3" style="left: 51.92307692307692%;"></a>
-    
-        <a href="../network/websockets.html" title="Websockets" class="chapter  " data-progress="3.1" style="left: 53.84615384615385%;"></a>
-    
-        <a href="../network/xhr-breakpoints.html" title="XHR Breakpoints" class="chapter  " data-progress="3.2" style="left: 55.76923076923077%;"></a>
-    
-        <a href="../network/request-data.html" title="Copy Request Data" class="chapter  " data-progress="3.3" style="left: 57.69230769230769%;"></a>
-    
-        <a href="../sources/README.html" title="Sources" class="chapter  new-chapter" data-progress="4" style="left: 59.61538461538461%;"></a>
-    
-        <a href="../https://plus.google.com/u/0/+AddyOsmani/posts/e4W2kdrFJY9" title="Shortcuts" class="chapter  " data-progress="4.1" style="left: 61.53846153846154%;"></a>
-    
-        <a href="../scripts/exceptions.html" title="Exceptions" class="chapter  " data-progress="4.10" style="left: 63.46153846153846%;"></a>
-    
-        <a href="../scripts/workers.html" title="WebWorkers" class="chapter  " data-progress="4.11" style="left: 65.38461538461539%;"></a>
-    
-        <a href="../scripts/workspaces.html" title="Workspaces" class="chapter  " data-progress="4.2" style="left: 67.3076923076923%;"></a>
-    
-        <a href="../scripts/local-modifications.html" title="Local Modifications" class="chapter  " data-progress="4.3" style="left: 69.23076923076923%;"></a>
-    
-        <a href="../scripts/debugging.html" title="Debugging" class="chapter  " data-progress="4.4" style="left: 71.15384615384616%;"></a>
-    
-        <a href="../scripts/frameworks.html" title="Skipping Frameworks" class="chapter  " data-progress="4.5" style="left: 73.07692307692308%;"></a>
-    
-        <a href="../scripts/async.html" title="Asyncronous Stacktraces" class="chapter  " data-progress="4.6" style="left: 75%;"></a>
-    
-        <a href="../scripts/pretty.html" title="Pretty Print" class="chapter  " data-progress="4.7" style="left: 76.92307692307692%;"></a>
-    
-        <a href="../scripts/snippets.html" title="Snippets" class="chapter  " data-progress="4.8" style="left: 78.84615384615384%;"></a>
-    
-        <a href="../scripts/breakpoint-log.html" title="Breakpoint Logging" class="chapter  " data-progress="4.9" style="left: 80.76923076923077%;"></a>
-    
-        <a href="../timeline/README.html" title="Timeline" class="chapter  new-chapter" data-progress="5" style="left: 82.6923076923077%;"></a>
-    
-        <a href="../profiles/README.html" title="Profiles" class="chapter  new-chapter" data-progress="6" style="left: 84.61538461538461%;"></a>
-    
-        <a href="../https://developers.google.com/chrome-developer-tools/docs/javascript-memory-profiling" title="Memory" class="chapter  " data-progress="6.1" style="left: 86.53846153846153%;"></a>
-    
-        <a href="../http://addyosmani.com/blog/devtools-flame-charts/" title="CPU" class="chapter  " data-progress="6.2" style="left: 88.46153846153847%;"></a>
-    
-        <a href="../resources/README.html" title="Resources" class="chapter  new-chapter" data-progress="7" style="left: 90.38461538461539%;"></a>
-    
-        <a href="../audits/README.html" title="Audits" class="chapter  new-chapter" data-progress="8" style="left: 92.3076923076923%;"></a>
-    
-        <a href="../audits/unused-css.html" title="Unused CSS" class="chapter  " data-progress="8.1" style="left: 94.23076923076923%;"></a>
-    
-        <a href="../mobile/README.html" title="Mobile" class="chapter  new-chapter" data-progress="9" style="left: 96.15384615384616%;"></a>
-    
-        <a href="../mobile/overrides.html" title="Overrides" class="chapter  " data-progress="9.1" style="left: 98.07692307692308%;"></a>
-    
-        <a href="../mobile/usb-debugging.html" title="USB Debugging" class="chapter  " data-progress="9.2" style="left: 100%;"></a>
     
     </div>
 </div>
@@ -672,12 +497,13 @@
                     
                         <h1 id="less-and-sass-source-maps">LESS and SASS Source Maps</h1>
 <p>Chrome supports mapping the transpiled CSS rules back to the original SASS or LESS source. Make sure CSS source maps are enabled within the settings dialog.</p>
+<h4 id="exercise-">Exercise‎</h4>
 <button class="button-style">This Button is Styled With Less</button>
 
 <link rel='stylesheet' href='/elements/less-styles.css' type='text/css' media='screen' />
 
-<p><img src="/elements/less-inline.png" alt="alt text" title="Less">
-<img src="/elements/less.png" alt="alt text" title="Less"></p>
+<p><img src="less-inline.png" alt="alt text" title="Less">
+<img src="less.png" alt="alt text" title="Less"></p>
 
                     
                     </section>
@@ -687,22 +513,36 @@
         </div>
 
         
-        <a href="../elements/styles.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
-        
-        
-        <a href="../elements/dom-breakpoints.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-        <link rel="stylesheet" href="../gitbook/style.css">
-        
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
         <script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
         <script src="../gitbook/app.js"></script>
         
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mixpanel/plugin.js"></script>
+    
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
     </body>
 </html>
