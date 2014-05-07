@@ -1,7 +1,7 @@
 Timeline
 ========
 
-####Exersize
+####Exercise
 Each button below will append 4000 rows to a table. The first is almost 10 times slower than the second. Use the timeline to help determine where what causes the performance hit.
 #####Generate Elements 1
 <button id="add1">Add Elements</button>
