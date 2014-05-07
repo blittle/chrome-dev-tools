@@ -7,3 +7,5 @@ Right click a `Scope Variable` and select `Store as Global Variable`. The consol
 
 ![Audits](../sources/store-as-global.gif)
 Note: A beta version of Chrome may be necessary for this feature.
+
+<script src="../sources/store-as-global.js"></script>

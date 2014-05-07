@@ -8,4 +8,5 @@ In the example above, notice the difference when asyncronous stack traces are en
 
 [More about asynchronous stack traces](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)
 
-<script src="../sources/async.js"></script>
+####Exercise
+Navigate to the <a href="html-editor/index.html">following link</a>. Load the developer tools and enable pausing at uncaught exceptions. Add a "block" to the page. An exception should throw.  Examine the difference when asynchronous traces are enabled and disabled.

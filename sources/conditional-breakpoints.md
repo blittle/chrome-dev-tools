@@ -6,3 +6,5 @@ Conditional breakpoints allow you to break inside a code block when a defined ex
 ![Audits](../sources/conditional-breakpoint.gif)
 
 Note: Because the conditional breakpoint simply evaluates an expression, you can add useful logging statements within the expression.
+
+<script src="../sources/conditional-breakpoints.js"></script>

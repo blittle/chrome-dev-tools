@@ -15,3 +15,5 @@ Debugging
 10. Breakpoints - a list of all current breakpoints in the application. Enable/disable them through the checkbox.
 11. Click a line to add or remove a breakpoint.
 12. The currently executing line.
+
+**Note:** If you want to asyncronously proceed to a specific line of code, right click that line and select `Continue to Here`.

@@ -34,7 +34,7 @@ define([
             }, this));
 
             html = "<html><head>" +
-                "<link rel='stylesheet' type='text/css' href='/templateEditor/templatePage/templateRendered.css'/>" +
+                "<link rel='stylesheet' type='text/css' href='templateEditor/templatePage/templateRendered.css'/>" +
                 "</head><body>" + html + "</body></html>";
 
             var doc = window.open('','myconsole',

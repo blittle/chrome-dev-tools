@@ -9,20 +9,4 @@ Often times in debugging a web app, you do not want to step inside framework cod
 Open up the developer tools and refresh the page which should automatically break. Enable skipping frameworks support for `lodash`. In stepping into the lodash.reduce call, examine the difference when it is enabled and disabled.
 
 <script src="bower_components/lodash/dist/lodash.min.js"></script>
-<script>
-	!function() {
-		var app = {};
-
-		app.helloWorld = function() {
-
-			debugger;
-			var val = _.reduce("Hello World!", function(str, c) {
-				return str += c.toUpperCase();
-			}, "");
-
-			console.log(val);
-		}
-
-		app.helloWorld();
-	}()
-</script>
+<script src="../sources/skip-frameworks.js"></script>
