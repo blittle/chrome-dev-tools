@@ -6,10 +6,13 @@ Styles
   * The toggle state button allows you to toggle CSS pseudo anchor state.
   * Clicking the source file name or `ctr` + `click` the property will load the associated source file.
   * Properties that are ~~crossed out~~ are either overriden or unknown to Chrome.
-  
-####Exercise‎
-Inspect the following element and toggle its state.
-<textarea class="state-change">State changes</textarea>  
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
 Increment property values with the following shortcuts:
@@ -21,3 +24,7 @@ Increment property values with the following shortcuts:
 | 10              | `shift` + `up` & `shift` + `down`      |
 
 <link rel='stylesheet' href='/elements/styles.css' type='text/css' media='screen' />
+
+####Exercise‎
+Inspect the following element and toggle its state.
+<textarea class="state-change">State changes</textarea>  

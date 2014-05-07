@@ -6,4 +6,6 @@
 <h4 style="text-align: center;">Bret Little - @little_bret</h4>
 <h4 style="text-align: center;"><a href="http://github.com/blittle">http://github.com/blittle</a></h4>
 
+<img src="Simplifile-Logo-Tri.png" width="50%"/>
+
 <!-- <img src="sf-logo.png" style="text-align: center;"/> -->
