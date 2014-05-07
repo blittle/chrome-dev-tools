@@ -6,3 +6,5 @@ As you modify source files, an asterisk `*` appended to the filename represents 
 Chrome tracks the history and modifications to each file. Right click the the file and click `Local Modifications...` to inspect and revert file history events.
 
 ![Audits](../sources/edit-revisions.gif)
+
+<script src="../sources/editing-content.js"></script>

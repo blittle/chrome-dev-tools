@@ -8,6 +8,6 @@ Chrome includes a smart editor live modifying application sources. The editor pr
 ####Exercise
 Open the file, editing-content.js and add complete the method handler for the following button:
 
-<button id="edit-content">Click Me</button>
+<button id="editing-content-button">Click Me</button>
 
 <script src="../sources/editing-content.js"></script>
