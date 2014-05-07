@@ -10,9 +10,4 @@ Find the onclick handler definition for the button below:
 
 <button id="click-example">Alert Me</button>
 
-<script>
-	var el = document.getElementById('click-example');
-	el.onclick = function(e) {
-		alert("Hello");
-	}
-</script>
+<script src="../elements/event-listeners.js"></script>

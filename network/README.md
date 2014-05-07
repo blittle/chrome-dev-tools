@@ -16,16 +16,4 @@ Use the network tab in the developer tools to find in the source where an AJAX r
 #####Server Response:
 <div id='server-response'></div>
 
-<script>
-	setTimeout(function() {
-		jQuery.ajax({
-			url: '/network/some-response.json',
-			type: 'GET',
-			contentType: 'application/json',
-			success: function(resp) {
-				var el = document.getElementById('server-response');
-				if(el) el.innerHTML = JSON.stringify(resp);
-			}
-		})
-	}, 1000)
-</script>
+<script src="../network/network.js"></script>

@@ -10,21 +10,5 @@ Use an XHR breakpoint to determine where in the code the following request orgin
 
 <button id='send-request'>Send Request</button>
 
-<script>
-	var reqs = {};
-	reqs.makeRequestAsync = function() {
-		setTimeout(function() {
-			jQuery.ajax({
-				url: '/network/some-response.json',
-				type: 'GET',
-				contentType: 'application/json'
-			});
-		});
-	}
-</script>
-
-<script>
-	document.getElementById('send-request').onclick = function() {
-		reqs['makeRequestAsync']();
-	}
-</script>
+<script src="../network/xhr-1.js"></script>
+<script src="../network/xhr-2.js"></script>
