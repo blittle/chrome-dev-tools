@@ -6,3 +6,5 @@ With workspaces you can grant Chrome permission to update your local file system
 ![Audits](../sources/workspaces.gif)
 
 Notice when the file gets saved and the browser is refreshed the changes persist. The `*` disappears from the file name and the background is not red. Also 
+
+<script src="../sources/workspaces.js"></script>

@@ -1,0 +1,61 @@
+.templateContent {
+    width: 100%;
+    border: 0;
+    background-color: #58595B;
+}
+
+.templateControls {
+    height: 25px;
+}
+
+.whiteDialog {
+    border-color: #fff;
+    background-color: #fff;
+    font-size: 9pt;
+    box-shadow: 0px 0px 20px #888888;
+    -moz-box-shadow: 0px 0px 20px #888888;
+    -webkit-box-shadow: 0px 0px 20px #888888;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    width: 130px;
+    color: #3b4b5c;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.whiteDialog .dropDownDialog {
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.whiteDialog .dropDownDialog .outerOpt:first-child {
+    padding-top: 0;
+}
+
+.clickWrapper.whiteDialog .dropDownDialog .outerOpt {
+    height: auto;
+}
+
+.whiteDialog .dropDownDialog .outerOpt {
+    border: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 3px 0 3px 0;
+}
+
+.whiteDialog .dropDownDialog .opt {
+    height: 18px;
+}
+
+.whiteDialog .dropDownDialog .opt:hover {
+    background-color: #bfe2ff;
+}
+
+.whiteDialog .dropDownDialog p {
+    padding: 2px 0px 0px 0px;
+    margin: 0px;
+    position: relative;
+    left: 10px;
+    top: 1px;
+}

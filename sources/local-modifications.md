@@ -7,4 +7,4 @@ Chrome tracks the history and modifications to each file. Right click the the fi
 
 ![Audits](../sources/edit-revisions.gif)
 
-<script src="../sources/editing-content.js"></script>
+<script src="../sources/local-mod.js"></script>

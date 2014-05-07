@@ -7,3 +7,5 @@ Asynchronous stack traces allow you to inspect function calls beyond the current
 In the example above, notice the difference when asyncronous stack traces are enabled and disabled. Also note that the feature needs to be enabled **before** the breakpoint is reached.
 
 [More about asynchronous stack traces](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)
+
+<script src="../sources/async.js"></script>
