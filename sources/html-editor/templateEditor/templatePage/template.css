@@ -1,0 +1,141 @@
+body {
+    margin: 0 0 20px 0;
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+    font-size: 3em;
+}
+
+body > div {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 40px;
+
+    /*.box-shadow(0, 0, 22px, #333333);*/
+    background-color: white;
+}
+
+body.grid > div {
+    background: url("../../grid.png") white repeat;
+}
+
+body > div:last-child {
+    margin-bottom: 20px;
+}
+
+body > div > div {
+    border: 12px dashed green;
+    display: inline-block;
+    /*height: 100%;*/
+    /*position: relative;*/
+}
+
+.element {
+    position: absolute;
+    z-index: 1;
+    border: 15px dotted #ccc;
+    cursor: move;
+}
+
+.element.selected, .element.selected:hover {
+    border: 15px solid lightblue;
+}
+
+.element:hover {
+    border: 15px dotted gray;
+}
+
+.line, .line:hover {
+    border: 0;
+}
+
+.handle {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: lightblue;
+    position:relative;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.handle.nw {
+    float: left;
+    bottom: -webkit-calc(100% + 25px);
+    right: 25px;
+    cursor: nw-resize;
+}
+
+.handle.ne {
+    float: right;
+    bottom: -webkit-calc(100% + 25px);
+    left: 25px;
+    cursor: ne-resize;
+}
+
+.handle.sw {
+    float: left;
+    right: 65px;
+    bottom: 10px;
+    cursor: sw-resize;
+}
+
+.handle.se {
+    float: right;
+    left: 65px;
+    bottom: 10px;
+    cursor: se-resize;
+}
+
+.handle.n {
+    float: right;
+    bottom: -webkit-calc(100% + 25px);
+    right: -webkit-calc(50% - 95px);
+    cursor: ns-resize;
+}
+
+.handle.s {
+    bottom: 10px;
+    right: -webkit-calc(50% - 138px);
+    float: right;
+    cursor: ns-resize;
+}
+
+.handle.e {
+    float: right;
+    bottom: -webkit-calc(50% + 20px);
+    left: 184px;
+    cursor: ew-resize;
+}
+
+.handle.w {
+    float: left;
+    bottom: -webkit-calc(50% + 20px);
+    right: 102px;
+    cursor: ew-resize;
+}
+
+.line .handle.n {
+    bottom: 40px;
+    left: 17px;
+}
+
+.line .handle.s {
+    top: -webkit-calc(100% - 32px);
+    left: 17px;
+}
+
+.line .handle.e {
+    bottom: -webkit-calc(50% + 13px);
+    left: 42px;
+}
+
+.line .handle.w {
+    bottom: -webkit-calc(50% + 13px);
+    right: 40px;
+}

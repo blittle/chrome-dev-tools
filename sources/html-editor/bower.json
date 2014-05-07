@@ -1,0 +1,12 @@
+{
+  "name": "html-editor",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "backbone": "~0.9.10",
+    "lodash": "~1.0.1",
+    "requirejs": "~2.1.4",
+    "requirejs-text": "~2.0.5",
+    "jquery-ui": "~1.10.1"
+  }
+}
