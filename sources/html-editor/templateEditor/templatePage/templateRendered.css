@@ -1,0 +1,18 @@
+body {
+    margin: 0 0 0 0;
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+    font-size: 3em;
+}
+
+body > div {
+    background-color: white;
+}
+
+body > div > div {
+    background-color: white;
+}
+
+.element {
+    position: absolute;
+    z-index: 1;
+}

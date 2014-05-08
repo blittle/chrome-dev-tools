@@ -1,0 +1,23 @@
+{
+  "name": "html-editor",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "backbone": "~0.9.10",
+    "lodash": "~1.0.1",
+    "requirejs": "~2.1.4",
+    "requirejs-text": "~2.0.5",
+    "jquery-ui": "~1.10.1"
+  },
+  "homepage": "https://github.com/blittle/html-template-editor",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "fe22663d1a9b558eede1773940b77e0870caf8a8"
+  },
+  "_source": "https://github.com/blittle/html-template-editor.git",
+  "_target": "~0.1.0",
+  "_originalSource": "https://github.com/blittle/html-template-editor.git",
+  "_direct": true
+}
