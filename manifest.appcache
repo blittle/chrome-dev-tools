@@ -1,4 +1,5 @@
 CACHE MANIFEST
+<<<<<<< HEAD
 # Revision 1399584920406
 
 CACHE:
@@ -8,16 +9,34 @@ elements/dom-breakpoints.html
 elements/event-listeners.html
 elements/less-sourcemaps.html
 elements/styles.html
+=======
+# Revision 1399502983723
+
+CACHE:
+console/README.html
+console/commands.html
+console/query-dom.html
+console/monitor-events.html
+>>>>>>> cdf65a4cba378979d725cc8d2e95116e6599c72e
 index.html
 audits/README.html
 basics/README.html
 basics/chrome-pages.html
 basics/navigation.html
 basics/settings.html
+<<<<<<< HEAD
 console/README.html
 console/commands.html
 console/monitor-events.html
 console/query-dom.html
+=======
+elements/README.html
+elements/computed-properties.html
+elements/dom-breakpoints.html
+elements/event-listeners.html
+elements/less-sourcemaps.html
+elements/styles.html
+>>>>>>> cdf65a4cba378979d725cc8d2e95116e6599c72e
 extensions/README.html
 mobile/README.html
 mobile/usb-debugging.html
