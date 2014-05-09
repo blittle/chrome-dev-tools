@@ -42,7 +42,7 @@
 
 
         
-    <div class="book" data-github="blittle/chrome-dev-tools" data-level="4.11" data-basepath=".." data-revision="1399584920405">
+    <div class="book" data-github="blittle/chrome-dev-tools" data-level="4.11" data-basepath=".." data-revision="1399642489631">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -611,8 +611,10 @@
 <p>In the example above, notice the difference when asyncronous stack traces are enabled and disabled. Also note that the feature needs to be enabled <strong>before</strong> the breakpoint is reached.</p>
 <p><a href="http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/" target="_blank">More about asynchronous stack traces</a></p>
 <h4 id="exercise">Exercise</h4>
-<p>Navigate to the <a href="html-editor/index.html">following link</a>. Load the developer tools and enable pausing at uncaught exceptions. Add a &quot;block&quot; to the page. An exception should throw.  Examine the difference when asynchronous traces are enabled and disabled.</p>
+<p>Open the developer tools and click the button below. The debugger should pause after 1 second. Examine the available stack trace with async stack traces enabled and disabled. </p>
+<button id="async-button">Make Async Request</button>
 
+<script src="../sources/async.js"></script>
                     
                     </section>
                 
