@@ -6,8 +6,6 @@
 			console.log('app started');
 		});
 	}
-	
-	alert('hello again');
 
 	app.start();
 }()
