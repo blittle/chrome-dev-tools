@@ -10,7 +10,5 @@
 <br/>
 <br/>
 <a href="http://simplifile.com"><img src="Simplifile-Logo-Tri.png" width="40%"/></a>
-<br/>
-<a href="http://openwest.org"><img src="openwest-logo.png"/></a>
 
 <!-- <img src="sf-logo.png" style="text-align: center;"/> -->
