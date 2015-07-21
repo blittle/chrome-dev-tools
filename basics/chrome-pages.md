@@ -1,6 +1,6 @@
 Internal Chrome Pages
 =====================
-A chomplete list of internal Chrome URLs is available at [chrome://about/](chrome://about/)
+A complete list of internal Chrome URLs is available at [chrome://about/](chrome://about/)
 
 ###Flags of interest
   * `chrome://flags` - Experimental features that may cause instability in the browser. 

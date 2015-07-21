@@ -3,10 +3,10 @@ Computed Properties
 
 Sometimes CSS properties are dynamically computed based upon the context of the style. For example an property value with an `em` unit is proportional to the parent element.
 
-![alt text](/elements/computed-properties.png "Less")
+![Audits](../elements/computed-properties.png)
 
-<br/>
-####Inspect the element below and analyze the defined versus computed properties:
+####Exercise‎
+Inspect the element below and analyze the defined versus computed properties:
 
 <div id="computed-prop-container">
 	<p class="content">

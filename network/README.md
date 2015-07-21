@@ -8,24 +8,12 @@ The network tab is very useful for inspecting network requests. Note: the develo
   * Mouse over individual requests on the timeline column to view timing information.
   * The initiator column has a link to the file and line number from where the request was initiated.
 
-![alt text](/network/network.png "Less")
+![Audits](../network/network.png)
 
+####Exercise‎
+Use the network tab in the developer tools to find in the source where an AJAX request is made to `some-response.json`
 
-####Use the network tab in the developer tools to find in the source where an AJAX request is made to `some-response.json`
-
-####Server Response:
+#####Server Response:
 <div id='server-response'></div>
 
-<script>
-	setTimeout(function() {
-		jQuery.ajax({
-			url: '/network/some-response.json',
-			type: 'GET',
-			contentType: 'application/json',
-			success: function(resp) {
-				var el = document.getElementById('server-response');
-				if(el) el.innerHTML = JSON.stringify(resp);
-			}
-		})
-	}, 1000)
-</script>
+<script src="../network/network.js"></script>
