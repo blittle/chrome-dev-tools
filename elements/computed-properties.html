@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-US" manifest="../manifest.appcache">
+    
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
         
         <meta charset="UTF-8">
         <title>Computed Properties | Down and Dirty with Chrome Developer Tools</title>
@@ -33,8 +35,10 @@
 
         <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
+        
     </head>
     <body>
+        
         
 
         <link rel="stylesheet" href="../gitbook/style.css">
@@ -42,51 +46,51 @@
 
 
         
-    <div class="book" data-github="blittle/chrome-dev-tools" data-level="2.5" data-basepath=".." data-revision="1399644787286">
+    <div class="book" data-github="blittle/chrome-dev-tools" data-level="2.5" data-basepath=".." data-revision="1437491795128">
     <div class="book-header">
     <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
     
-    <a href="https://github.com/blittle/chrome-dev-tools" target="_blank" class="btn pull-left"><i class="fa fa-bookmark-o"></i></a>
+    <a href="https://github.com/blittle/chrome-dev-tools" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
     
-    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
-    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
     <span id="font-settings-wrapper">
-        <a href="#" class="btn pull-left toggle-font-settings"><i class="fa fa-font"></i>
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
         </a>
         <div class="dropdown-menu font-settings">
-	<div class="dropdown-caret">
-  <span class="caret-outer"></span>
-  <span class="caret-inner"></span>
-</div>
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
 
-	<div class="btn-group btn-block">
-		<button id="reduce-font-size" class="btn btn-default">A</button>
-		<button id="enlarge-font-size" class="btn btn-default">A</button>
-	</div>
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
 
-	<ul class="list-group font-family-list">
-		<li class="list-group-item" data-font="0">Serif</li>
-		<li class="list-group-item" data-font="1">Sans</li>
-	</ul>
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
 
-	<div class="btn-group btn-group-xs btn-block color-theme-list">
-	  <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
-	  <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
-	  <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
-	</div>
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
 </div>
 
     </span>
 
     <!-- Actions Right -->
     
-    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
     
     
-    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
     
     
-    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
     
 
     
@@ -101,26 +105,32 @@
     </h1>
 </div>
 
-    <div class="book-summary">
+    
+
+<div class="book-summary">
     <div class="book-search">
         <input type="text" placeholder="Search" class="form-control" />
     </div>
     <ul class="summary">
         
+        
+        
         <li>
-            <a href="https://github.com/blittle" target="blank">About the author</a>
+            <a href="https://github.com/blittle" target="blank" class="author-link">About the author</a>
         </li>
         
 
         
+        
         <li>
-            <a href="https://github.com/blittle/chrome-dev-tools/issues" target="blank">Questions and Issues</a>
+            <a href="https://github.com/blittle/chrome-dev-tools/issues" target="blank"class="issues-link">Questions and Issues</a>
         </li>
         
 
         
+        
         <li>
-            <a href="https://github.com/blittle/chrome-dev-tools/edit/master/elements/computed-properties.md" target="blank">Edit and Contribute</a>
+            <a href="https://github.com/blittle/chrome-dev-tools/edit/master/elements/computed-properties.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -132,374 +142,418 @@
             <a href="../"><i class="fa fa-check"></i> Introduction</a>
         </li>
         
-            <li  data-level="1" data-path="basics/README.html">
+    
+        <li class="chapter " data-level="1" data-path="basics/README.html">
+            
+            <a href="../basics/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> Basics
+            </a>
+            
+            
+            <ul class="articles">
                 
-                <a href="../basics/README.html">
-                    <i class="fa fa-check"></i> <b>1.</b> Basics
-                </a>
+    
+        <li class="chapter " data-level="1.1" data-path="basics/chrome-pages.html">
+            
+            <a href="../basics/chrome-pages.html">
+                <i class="fa fa-check"></i> <b>1.1.</b> Internal Chrome Pages
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="basics/navigation.html">
+            
+            <a href="../basics/navigation.html">
+                <i class="fa fa-check"></i> <b>1.2.</b> Navigation
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="basics/settings.html">
+            
+            <a href="../basics/settings.html">
+                <i class="fa fa-check"></i> <b>1.3.</b> Settings
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="elements/README.html">
+            
+            <a href="../elements/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> Elements
+            </a>
+            
+            
+            <ul class="articles">
                 
+    
+        <li class="chapter " data-level="2.1" data-path="elements/styles.html">
+            
+            <a href="../elements/styles.html">
+                <i class="fa fa-check"></i> <b>2.1.</b> Styles
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="elements/less-sourcemaps.html">
+            
+            <a href="../elements/less-sourcemaps.html">
+                <i class="fa fa-check"></i> <b>2.2.</b> Source Maps
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="elements/dom-breakpoints.html">
+            
+            <a href="../elements/dom-breakpoints.html">
+                <i class="fa fa-check"></i> <b>2.3.</b> DOM Breakpoints
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="elements/event-listeners.html">
+            
+            <a href="../elements/event-listeners.html">
+                <i class="fa fa-check"></i> <b>2.4.</b> Event Listeners
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="elements/computed-properties.html">
+            
+            <a href="../elements/computed-properties.html">
+                <i class="fa fa-check"></i> <b>2.5.</b> Computed Properties
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="network/README.html">
+            
+            <a href="../network/README.html">
+                <i class="fa fa-check"></i> <b>3.</b> Network
+            </a>
+            
+            
+            <ul class="articles">
                 
-                <ul class="articles">
-                    
-                        <li  data-level="1.1" data-path="basics/chrome-pages.html">
-                            
-                            <a href="../basics/chrome-pages.html">
-                                <i class="fa fa-check"></i> <b>1.1.</b> Internal Chrome Pages
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="1.2" data-path="basics/navigation.html">
-                            
-                            <a href="../basics/navigation.html">
-                                <i class="fa fa-check"></i> <b>1.2.</b> Navigation
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="1.3" data-path="basics/settings.html">
-                            
-                            <a href="../basics/settings.html">
-                                <i class="fa fa-check"></i> <b>1.3.</b> Settings
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
+    
+        <li class="chapter " data-level="3.1" data-path="network/websockets.html">
+            
+            <a href="../network/websockets.html">
+                <i class="fa fa-check"></i> <b>3.1.</b> Websockets
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="network/xhr-breakpoints.html">
+            
+            <a href="../network/xhr-breakpoints.html">
+                <i class="fa fa-check"></i> <b>3.2.</b> XHR Breakpoints
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="network/request-data.html">
+            
+            <a href="../network/request-data.html">
+                <i class="fa fa-check"></i> <b>3.3.</b> Copy Request Data
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="sources/README.html">
+            
+            <a href="../sources/README.html">
+                <i class="fa fa-check"></i> <b>4.</b> Sources
+            </a>
+            
+            
+            <ul class="articles">
                 
-            </li>
-        
-            <li  data-level="2" data-path="elements/README.html">
+    
+        <li class="chapter " data-level="4.1" data-path="sources/pretty-print.html">
+            
+            <a href="../sources/pretty-print.html">
+                <i class="fa fa-check"></i> <b>4.1.</b> Pretty Print
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="sources/editing-content.html">
+            
+            <a href="../sources/editing-content.html">
+                <i class="fa fa-check"></i> <b>4.2.</b> Editing Content
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="sources/local-modifications.html">
+            
+            <a href="../sources/local-modifications.html">
+                <i class="fa fa-check"></i> <b>4.3.</b> Local Modifications
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="sources/workspaces.html">
+            
+            <a href="../sources/workspaces.html">
+                <i class="fa fa-check"></i> <b>4.4.</b> Workspaces
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="sources/debugging.html">
+            
+            <a href="../sources/debugging.html">
+                <i class="fa fa-check"></i> <b>4.5.</b> Debugging
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="sources/restart-frame.html">
+            
+            <a href="../sources/restart-frame.html">
+                <i class="fa fa-check"></i> <b>4.6.</b> Restart Frame
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="sources/long-resume.html">
+            
+            <a href="../sources/long-resume.html">
+                <i class="fa fa-check"></i> <b>4.7.</b> Long Resume
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="sources/skip-frameworks.html">
+            
+            <a href="../sources/skip-frameworks.html">
+                <i class="fa fa-check"></i> <b>4.8.</b> Skipping Frameworks
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="sources/conditional-breakpoints.html">
+            
+            <a href="../sources/conditional-breakpoints.html">
+                <i class="fa fa-check"></i> <b>4.9.</b> Conditional Breakpoints
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="sources/uncaught-exceptions.html">
+            
+            <a href="../sources/uncaught-exceptions.html">
+                <i class="fa fa-check"></i> <b>4.10.</b> Uncaught Exceptions
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="sources/async.html">
+            
+            <a href="../sources/async.html">
+                <i class="fa fa-check"></i> <b>4.11.</b> Asyncronous Stacktraces
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="sources/store-as-global.html">
+            
+            <a href="../sources/store-as-global.html">
+                <i class="fa fa-check"></i> <b>4.12.</b> Store as Global
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="sources/web-workers.html">
+            
+            <a href="../sources/web-workers.html">
+                <i class="fa fa-check"></i> <b>4.13.</b> WebWorkers
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="sources/maps.html">
+            
+            <a href="../sources/maps.html">
+                <i class="fa fa-check"></i> <b>4.14.</b> SourceMaps
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="sources/snippets.html">
+            
+            <a href="../sources/snippets.html">
+                <i class="fa fa-check"></i> <b>4.15.</b> Snippets
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="timeline/README.html">
+            
+            <a href="../timeline/README.html">
+                <i class="fa fa-check"></i> <b>5.</b> Timeline
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="profiles/README.html">
+            
+            <a href="../profiles/README.html">
+                <i class="fa fa-check"></i> <b>6.</b> Profiles
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="audits/README.html">
+            
+            <a href="../audits/README.html">
+                <i class="fa fa-check"></i> <b>7.</b> Audits
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="console/README.html">
+            
+            <a href="../console/README.html">
+                <i class="fa fa-check"></i> <b>8.</b> Console
+            </a>
+            
+            
+            <ul class="articles">
                 
-                <a href="../elements/README.html">
-                    <i class="fa fa-check"></i> <b>2.</b> Elements
-                </a>
+    
+        <li class="chapter " data-level="8.1" data-path="console/query-dom.html">
+            
+            <a href="../console/query-dom.html">
+                <i class="fa fa-check"></i> <b>8.1.</b> Query DOM
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="console/monitor-events.html">
+            
+            <a href="../console/monitor-events.html">
+                <i class="fa fa-check"></i> <b>8.2.</b> Monitor Events
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="console/commands.html">
+            
+            <a href="../console/commands.html">
+                <i class="fa fa-check"></i> <b>8.3.</b> Commands
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="mobile/README.html">
+            
+            <a href="../mobile/README.html">
+                <i class="fa fa-check"></i> <b>9.</b> Mobile
+            </a>
+            
+            
+            <ul class="articles">
                 
-                
-                <ul class="articles">
-                    
-                        <li  data-level="2.1" data-path="elements/styles.html">
-                            
-                            <a href="../elements/styles.html">
-                                <i class="fa fa-check"></i> <b>2.1.</b> Styles
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="2.2" data-path="elements/less-sourcemaps.html">
-                            
-                            <a href="../elements/less-sourcemaps.html">
-                                <i class="fa fa-check"></i> <b>2.2.</b> Source Maps
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="2.3" data-path="elements/dom-breakpoints.html">
-                            
-                            <a href="../elements/dom-breakpoints.html">
-                                <i class="fa fa-check"></i> <b>2.3.</b> DOM Breakpoints
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="2.4" data-path="elements/event-listeners.html">
-                            
-                            <a href="../elements/event-listeners.html">
-                                <i class="fa fa-check"></i> <b>2.4.</b> Event Listeners
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="2.5" data-path="elements/computed-properties.html">
-                            
-                            <a href="../elements/computed-properties.html">
-                                <i class="fa fa-check"></i> <b>2.5.</b> Computed Properties
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="3" data-path="network/README.html">
-                
-                <a href="../network/README.html">
-                    <i class="fa fa-check"></i> <b>3.</b> Network
-                </a>
-                
-                
-                <ul class="articles">
-                    
-                        <li  data-level="3.1" data-path="network/websockets.html">
-                            
-                            <a href="../network/websockets.html">
-                                <i class="fa fa-check"></i> <b>3.1.</b> Websockets
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="3.2" data-path="network/xhr-breakpoints.html">
-                            
-                            <a href="../network/xhr-breakpoints.html">
-                                <i class="fa fa-check"></i> <b>3.2.</b> XHR Breakpoints
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="3.3" data-path="network/request-data.html">
-                            
-                            <a href="../network/request-data.html">
-                                <i class="fa fa-check"></i> <b>3.3.</b> Copy Request Data
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="4" data-path="sources/README.html">
-                
-                <a href="../sources/README.html">
-                    <i class="fa fa-check"></i> <b>4.</b> Sources
-                </a>
-                
-                
-                <ul class="articles">
-                    
-                        <li  data-level="4.1" data-path="sources/pretty-print.html">
-                            
-                            <a href="../sources/pretty-print.html">
-                                <i class="fa fa-check"></i> <b>4.1.</b> Pretty Print
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.2" data-path="sources/editing-content.html">
-                            
-                            <a href="../sources/editing-content.html">
-                                <i class="fa fa-check"></i> <b>4.2.</b> Editing Content
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.3" data-path="sources/local-modifications.html">
-                            
-                            <a href="../sources/local-modifications.html">
-                                <i class="fa fa-check"></i> <b>4.3.</b> Local Modifications
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.4" data-path="sources/workspaces.html">
-                            
-                            <a href="../sources/workspaces.html">
-                                <i class="fa fa-check"></i> <b>4.4.</b> Workspaces
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.5" data-path="sources/debugging.html">
-                            
-                            <a href="../sources/debugging.html">
-                                <i class="fa fa-check"></i> <b>4.5.</b> Debugging
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.6" data-path="sources/restart-frame.html">
-                            
-                            <a href="../sources/restart-frame.html">
-                                <i class="fa fa-check"></i> <b>4.6.</b> Restart Frame
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.7" data-path="sources/long-resume.html">
-                            
-                            <a href="../sources/long-resume.html">
-                                <i class="fa fa-check"></i> <b>4.7.</b> Long Resume
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.8" data-path="sources/skip-frameworks.html">
-                            
-                            <a href="../sources/skip-frameworks.html">
-                                <i class="fa fa-check"></i> <b>4.8.</b> Skipping Frameworks
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.9" data-path="sources/conditional-breakpoints.html">
-                            
-                            <a href="../sources/conditional-breakpoints.html">
-                                <i class="fa fa-check"></i> <b>4.9.</b> Conditional Breakpoints
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.10" data-path="sources/uncaught-exceptions.html">
-                            
-                            <a href="../sources/uncaught-exceptions.html">
-                                <i class="fa fa-check"></i> <b>4.10.</b> Uncaught Exceptions
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.11" data-path="sources/async.html">
-                            
-                            <a href="../sources/async.html">
-                                <i class="fa fa-check"></i> <b>4.11.</b> Asyncronous Stacktraces
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.12" data-path="sources/store-as-global.html">
-                            
-                            <a href="../sources/store-as-global.html">
-                                <i class="fa fa-check"></i> <b>4.12.</b> Store as Global
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.13" data-path="sources/web-workers.html">
-                            
-                            <a href="../sources/web-workers.html">
-                                <i class="fa fa-check"></i> <b>4.13.</b> WebWorkers
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.14" data-path="sources/maps.html">
-                            
-                            <a href="../sources/maps.html">
-                                <i class="fa fa-check"></i> <b>4.14.</b> SourceMaps
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="4.15" data-path="sources/snippets.html">
-                            
-                            <a href="../sources/snippets.html">
-                                <i class="fa fa-check"></i> <b>4.15.</b> Snippets
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="5" data-path="timeline/README.html">
-                
-                <a href="../timeline/README.html">
-                    <i class="fa fa-check"></i> <b>5.</b> Timeline
-                </a>
-                
-                
-            </li>
-        
-            <li  data-level="6" data-path="profiles/README.html">
-                
-                <a href="../profiles/README.html">
-                    <i class="fa fa-check"></i> <b>6.</b> Profiles
-                </a>
-                
-                
-            </li>
-        
-            <li  data-level="7" data-path="audits/README.html">
-                
-                <a href="../audits/README.html">
-                    <i class="fa fa-check"></i> <b>7.</b> Audits
-                </a>
-                
-                
-            </li>
-        
-            <li  data-level="8" data-path="console/README.html">
-                
-                <a href="../console/README.html">
-                    <i class="fa fa-check"></i> <b>8.</b> Console
-                </a>
-                
-                
-                <ul class="articles">
-                    
-                        <li  data-level="8.1" data-path="console/query-dom.html">
-                            
-                            <a href="../console/query-dom.html">
-                                <i class="fa fa-check"></i> <b>8.1.</b> Query DOM
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="8.2" data-path="console/monitor-events.html">
-                            
-                            <a href="../console/monitor-events.html">
-                                <i class="fa fa-check"></i> <b>8.2.</b> Monitor Events
-                            </a>
-                            
-                        </li>
-                    
-                        <li  data-level="8.3" data-path="console/commands.html">
-                            
-                            <a href="../console/commands.html">
-                                <i class="fa fa-check"></i> <b>8.3.</b> Commands
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="9" data-path="mobile/README.html">
-                
-                <a href="../mobile/README.html">
-                    <i class="fa fa-check"></i> <b>9.</b> Mobile
-                </a>
-                
-                
-                <ul class="articles">
-                    
-                        <li  data-level="9.1" data-path="mobile/usb-debugging.html">
-                            
-                            <a href="../mobile/usb-debugging.html">
-                                <i class="fa fa-check"></i> <b>9.1.</b> USB Debugging
-                            </a>
-                            
-                        </li>
-                    
-                </ul>
-                
-            </li>
-        
-            <li  data-level="10" data-path="extensions/README.html">
-                
-                <a href="../extensions/README.html">
-                    <i class="fa fa-check"></i> <b>10.</b> Extensions
-                </a>
-                
-                
-            </li>
-        
-            <li  data-level="11" data-path="themes/README.html">
-                
-                <a href="../themes/README.html">
-                    <i class="fa fa-check"></i> <b>11.</b> Custom Skins
-                </a>
-                
-                
-            </li>
-        
+    
+        <li class="chapter " data-level="9.1" data-path="mobile/usb-debugging.html">
+            
+            <a href="../mobile/usb-debugging.html">
+                <i class="fa fa-check"></i> <b>9.1.</b> USB Debugging
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="extensions/README.html">
+            
+            <a href="../extensions/README.html">
+                <i class="fa fa-check"></i> <b>10.</b> Extensions
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="themes/README.html">
+            
+            <a href="../themes/README.html">
+                <i class="fa fa-check"></i> <b>11.</b> Custom Skins
+            </a>
+            
+            
+        </li>
+    
+
 
         
         <li class="divider"></li>
         <li>
-            <a href="http://www.gitbook.io/" target="blank">Generated using GitBook</a>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
         </li>
         
     </ul>
@@ -510,7 +564,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 29.26829268292683%;min-width: 26.829268292682926%;"></div>
+        <div class="inner" style="width: 24.390243902439025%;min-width: 21.951219512195124%;"></div>
     </div>
     <div class="chapters">
     
@@ -524,86 +578,86 @@
     
         <a href="../basics/settings.html" title="Settings" class="chapter done " data-progress="1.3" style="left: 9.75609756097561%;"></a>
     
-        <a href="../extensions/README.html" title="Extensions" class="chapter done " data-progress="10" style="left: 12.195121951219512%;"></a>
+        <a href="../elements/README.html" title="Elements" class="chapter done new-chapter" data-progress="2" style="left: 12.195121951219512%;"></a>
     
-        <a href="../themes/README.html" title="Custom Skins" class="chapter done " data-progress="11" style="left: 14.634146341463415%;"></a>
+        <a href="../elements/styles.html" title="Styles" class="chapter done " data-progress="2.1" style="left: 14.634146341463415%;"></a>
     
-        <a href="../elements/README.html" title="Elements" class="chapter done new-chapter" data-progress="2" style="left: 17.073170731707318%;"></a>
+        <a href="../elements/less-sourcemaps.html" title="Source Maps" class="chapter done " data-progress="2.2" style="left: 17.073170731707318%;"></a>
     
-        <a href="../elements/styles.html" title="Styles" class="chapter done " data-progress="2.1" style="left: 19.51219512195122%;"></a>
+        <a href="../elements/dom-breakpoints.html" title="DOM Breakpoints" class="chapter done " data-progress="2.3" style="left: 19.51219512195122%;"></a>
     
-        <a href="../elements/less-sourcemaps.html" title="Source Maps" class="chapter done " data-progress="2.2" style="left: 21.951219512195124%;"></a>
+        <a href="../elements/event-listeners.html" title="Event Listeners" class="chapter done " data-progress="2.4" style="left: 21.951219512195124%;"></a>
     
-        <a href="../elements/dom-breakpoints.html" title="DOM Breakpoints" class="chapter done " data-progress="2.3" style="left: 24.390243902439025%;"></a>
+        <a href="../elements/computed-properties.html" title="Computed Properties" class="chapter done " data-progress="2.5" style="left: 24.390243902439025%;"></a>
     
-        <a href="../elements/event-listeners.html" title="Event Listeners" class="chapter done " data-progress="2.4" style="left: 26.829268292682926%;"></a>
+        <a href="../network/README.html" title="Network" class="chapter  new-chapter" data-progress="3" style="left: 26.829268292682926%;"></a>
     
-        <a href="../elements/computed-properties.html" title="Computed Properties" class="chapter done " data-progress="2.5" style="left: 29.26829268292683%;"></a>
+        <a href="../network/websockets.html" title="Websockets" class="chapter  " data-progress="3.1" style="left: 29.26829268292683%;"></a>
     
-        <a href="../network/README.html" title="Network" class="chapter  new-chapter" data-progress="3" style="left: 31.70731707317073%;"></a>
+        <a href="../network/xhr-breakpoints.html" title="XHR Breakpoints" class="chapter  " data-progress="3.2" style="left: 31.70731707317073%;"></a>
     
-        <a href="../network/websockets.html" title="Websockets" class="chapter  " data-progress="3.1" style="left: 34.146341463414636%;"></a>
+        <a href="../network/request-data.html" title="Copy Request Data" class="chapter  " data-progress="3.3" style="left: 34.146341463414636%;"></a>
     
-        <a href="../network/xhr-breakpoints.html" title="XHR Breakpoints" class="chapter  " data-progress="3.2" style="left: 36.58536585365854%;"></a>
+        <a href="../sources/README.html" title="Sources" class="chapter  new-chapter" data-progress="4" style="left: 36.58536585365854%;"></a>
     
-        <a href="../network/request-data.html" title="Copy Request Data" class="chapter  " data-progress="3.3" style="left: 39.02439024390244%;"></a>
+        <a href="../sources/pretty-print.html" title="Pretty Print" class="chapter  " data-progress="4.1" style="left: 39.02439024390244%;"></a>
     
-        <a href="../sources/README.html" title="Sources" class="chapter  new-chapter" data-progress="4" style="left: 41.46341463414634%;"></a>
+        <a href="../sources/uncaught-exceptions.html" title="Uncaught Exceptions" class="chapter  " data-progress="4.10" style="left: 41.46341463414634%;"></a>
     
-        <a href="../sources/pretty-print.html" title="Pretty Print" class="chapter  " data-progress="4.1" style="left: 43.90243902439025%;"></a>
+        <a href="../sources/async.html" title="Asyncronous Stacktraces" class="chapter  " data-progress="4.11" style="left: 43.90243902439025%;"></a>
     
-        <a href="../sources/uncaught-exceptions.html" title="Uncaught Exceptions" class="chapter  " data-progress="4.10" style="left: 46.34146341463415%;"></a>
+        <a href="../sources/store-as-global.html" title="Store as Global" class="chapter  " data-progress="4.12" style="left: 46.34146341463415%;"></a>
     
-        <a href="../sources/async.html" title="Asyncronous Stacktraces" class="chapter  " data-progress="4.11" style="left: 48.78048780487805%;"></a>
+        <a href="../sources/web-workers.html" title="WebWorkers" class="chapter  " data-progress="4.13" style="left: 48.78048780487805%;"></a>
     
-        <a href="../sources/store-as-global.html" title="Store as Global" class="chapter  " data-progress="4.12" style="left: 51.21951219512195%;"></a>
+        <a href="../sources/maps.html" title="SourceMaps" class="chapter  " data-progress="4.14" style="left: 51.21951219512195%;"></a>
     
-        <a href="../sources/web-workers.html" title="WebWorkers" class="chapter  " data-progress="4.13" style="left: 53.65853658536585%;"></a>
+        <a href="../sources/snippets.html" title="Snippets" class="chapter  " data-progress="4.15" style="left: 53.65853658536585%;"></a>
     
-        <a href="../sources/maps.html" title="SourceMaps" class="chapter  " data-progress="4.14" style="left: 56.09756097560975%;"></a>
+        <a href="../sources/editing-content.html" title="Editing Content" class="chapter  " data-progress="4.2" style="left: 56.09756097560975%;"></a>
     
-        <a href="../sources/snippets.html" title="Snippets" class="chapter  " data-progress="4.15" style="left: 58.53658536585366%;"></a>
+        <a href="../sources/local-modifications.html" title="Local Modifications" class="chapter  " data-progress="4.3" style="left: 58.53658536585366%;"></a>
     
-        <a href="../sources/editing-content.html" title="Editing Content" class="chapter  " data-progress="4.2" style="left: 60.97560975609756%;"></a>
+        <a href="../sources/workspaces.html" title="Workspaces" class="chapter  " data-progress="4.4" style="left: 60.97560975609756%;"></a>
     
-        <a href="../sources/local-modifications.html" title="Local Modifications" class="chapter  " data-progress="4.3" style="left: 63.41463414634146%;"></a>
+        <a href="../sources/debugging.html" title="Debugging" class="chapter  " data-progress="4.5" style="left: 63.41463414634146%;"></a>
     
-        <a href="../sources/workspaces.html" title="Workspaces" class="chapter  " data-progress="4.4" style="left: 65.85365853658537%;"></a>
+        <a href="../sources/restart-frame.html" title="Restart Frame" class="chapter  " data-progress="4.6" style="left: 65.85365853658537%;"></a>
     
-        <a href="../sources/debugging.html" title="Debugging" class="chapter  " data-progress="4.5" style="left: 68.29268292682927%;"></a>
+        <a href="../sources/long-resume.html" title="Long Resume" class="chapter  " data-progress="4.7" style="left: 68.29268292682927%;"></a>
     
-        <a href="../sources/restart-frame.html" title="Restart Frame" class="chapter  " data-progress="4.6" style="left: 70.73170731707317%;"></a>
+        <a href="../sources/skip-frameworks.html" title="Skipping Frameworks" class="chapter  " data-progress="4.8" style="left: 70.73170731707317%;"></a>
     
-        <a href="../sources/long-resume.html" title="Long Resume" class="chapter  " data-progress="4.7" style="left: 73.17073170731707%;"></a>
+        <a href="../sources/conditional-breakpoints.html" title="Conditional Breakpoints" class="chapter  " data-progress="4.9" style="left: 73.17073170731707%;"></a>
     
-        <a href="../sources/skip-frameworks.html" title="Skipping Frameworks" class="chapter  " data-progress="4.8" style="left: 75.60975609756098%;"></a>
+        <a href="../timeline/README.html" title="Timeline" class="chapter  new-chapter" data-progress="5" style="left: 75.60975609756098%;"></a>
     
-        <a href="../sources/conditional-breakpoints.html" title="Conditional Breakpoints" class="chapter  " data-progress="4.9" style="left: 78.04878048780488%;"></a>
+        <a href="../profiles/README.html" title="Profiles" class="chapter  new-chapter" data-progress="6" style="left: 78.04878048780488%;"></a>
     
-        <a href="../timeline/README.html" title="Timeline" class="chapter  new-chapter" data-progress="5" style="left: 80.48780487804878%;"></a>
+        <a href="../audits/README.html" title="Audits" class="chapter  new-chapter" data-progress="7" style="left: 80.48780487804878%;"></a>
     
-        <a href="../profiles/README.html" title="Profiles" class="chapter  new-chapter" data-progress="6" style="left: 82.92682926829268%;"></a>
+        <a href="../console/README.html" title="Console" class="chapter  new-chapter" data-progress="8" style="left: 82.92682926829268%;"></a>
     
-        <a href="../audits/README.html" title="Audits" class="chapter  new-chapter" data-progress="7" style="left: 85.36585365853658%;"></a>
+        <a href="../console/query-dom.html" title="Query DOM" class="chapter  " data-progress="8.1" style="left: 85.36585365853658%;"></a>
     
-        <a href="../console/README.html" title="Console" class="chapter  new-chapter" data-progress="8" style="left: 87.8048780487805%;"></a>
+        <a href="../console/monitor-events.html" title="Monitor Events" class="chapter  " data-progress="8.2" style="left: 87.8048780487805%;"></a>
     
-        <a href="../console/query-dom.html" title="Query DOM" class="chapter  " data-progress="8.1" style="left: 90.2439024390244%;"></a>
+        <a href="../console/commands.html" title="Commands" class="chapter  " data-progress="8.3" style="left: 90.2439024390244%;"></a>
     
-        <a href="../console/monitor-events.html" title="Monitor Events" class="chapter  " data-progress="8.2" style="left: 92.6829268292683%;"></a>
+        <a href="../mobile/README.html" title="Mobile" class="chapter  new-chapter" data-progress="9" style="left: 92.6829268292683%;"></a>
     
-        <a href="../console/commands.html" title="Commands" class="chapter  " data-progress="8.3" style="left: 95.1219512195122%;"></a>
+        <a href="../mobile/usb-debugging.html" title="USB Debugging" class="chapter  " data-progress="9.1" style="left: 95.1219512195122%;"></a>
     
-        <a href="../mobile/README.html" title="Mobile" class="chapter  new-chapter" data-progress="9" style="left: 97.5609756097561%;"></a>
+        <a href="../extensions/README.html" title="Extensions" class="chapter  " data-progress="10" style="left: 97.5609756097561%;"></a>
     
-        <a href="../mobile/usb-debugging.html" title="USB Debugging" class="chapter  " data-progress="9.1" style="left: 100%;"></a>
+        <a href="../themes/README.html" title="Custom Skins" class="chapter  " data-progress="11" style="left: 100%;"></a>
     
     </div>
 </div>
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_2">
+                    <section class="normal" id="section-gitbook_13">
                     
                         <h1 id="computed-properties">Computed Properties</h1>
 <p>Sometimes CSS properties are dynamically computed based upon the context of the style. For example an property value with an <code>em</code> unit is proportional to the parent element.</p>
@@ -641,10 +695,10 @@
         </div>
 
         
-        <a href="../elements/event-listeners.html" class="navigation navigation-prev "><i class="fa fa-angle-left"></i></a>
+        <a href="../elements/event-listeners.html" class="navigation navigation-prev " aria-label="Previous page: Event Listeners"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../network/README.html" class="navigation navigation-next "><i class="fa fa-angle-right"></i></a>
+        <a href="../network/README.html" class="navigation navigation-next " aria-label="Next page: Network"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
@@ -656,10 +710,6 @@
         <script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
         <script src="../gitbook/app.js"></script>
         
-
-    
-    <script src="../gitbook/plugins/gitbook-plugin-mixpanel/plugin.js"></script>
-    
 
     
     <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -676,5 +726,7 @@ require(["gitbook"], function(gitbook) {
 });
 </script>
 
+        
     </body>
+    
 </html>
