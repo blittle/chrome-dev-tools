@@ -1,0 +1,23 @@
+{
+  "name": "chrome-dev-tools",
+  "version": "1.0.0",
+  "description": "<img src=\"chrome.png\" alt=\"Google Chrome\" style=\"width: 200px; display: inline-block; float:left;\"/> <img src=\"chromium.png\" alt=\"Chromium\" style=\"width: 200px; display: inline-block; float: right;\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node node_modules/gitbook/bin/gitbook.js build -f site -o _book ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blittle/chrome-dev-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blittle/chrome-dev-tools/issues"
+  },
+  "homepage": "https://github.com/blittle/chrome-dev-tools#readme",
+  "dependencies": {
+    "gitbook": "^0.5.0"
+  }
+}
