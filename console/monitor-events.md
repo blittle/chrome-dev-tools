@@ -6,6 +6,7 @@ From the console you can usefully monitor events with the `monitorEvents` API. T
 ```javascript
 monitorEvents(document, ["scroll"]);
 monitorEvents($('#action-button'), ["mousedown", "mouseup"]);
+$$('div').forEach(div => monitorEvents(div, ["scroll"]));
 ```
 
 ![Audits](../console/monitor-events.png)
